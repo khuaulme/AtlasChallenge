@@ -1,0 +1,10 @@
+{
+    "id": "5ddaf1838f4156777eaa2347",
+    "name": "slowAggTrigger",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *"
+    },
+    "function_name": "slowAgg",
+    "disabled": false
+}
