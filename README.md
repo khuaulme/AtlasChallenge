@@ -60,9 +60,11 @@ The last thing you need to do is confirm the changes from the terminal.
 
 From Atlas Stitch UI, enable Hosting.
 Download the index.html and replace app Stitch app name in line 85 of index.html
-Save and import into Stitch hosting. This will overwrite the index.html file.
+Save and import into Stitch hosting. This will overwrite the index.html file.  
 
-Disable Drafts from Deploy Configuration 
+## FINE TUNING APPLICATION
+
+### Disable Drafts from Deploy Configuration - IMPORTANT!
 
 ![Screenshot](https://user-images.githubusercontent.com/15270412/69676438-5a8b2b00-1066-11ea-85da-775fa5e4604a.png)
 
@@ -78,5 +80,5 @@ to write into database.
 
 _________________________
 
-To reset: delete trigger0
+### To reset: delete trigger0
 
