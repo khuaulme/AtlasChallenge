@@ -18,8 +18,8 @@ A properly installed copy of stitch-cli that has been added to your system PATH.
 ## Install Instructions
 1. Download Challenge Application folder.
 2. Empty stitch.json to be {}
-3. Alter config.json to use your "clusterName". 
-{
+3. Alter services -> mongodb-atlas -> config.json to use your "clusterName". 
+```{
     "name": "mongodb-atlas",
     "type": "mongodb-atlas",
     "config": {
@@ -28,7 +28,7 @@ A properly installed copy of stitch-cli that has been added to your system PATH.
         "wireProtocolEnabled": false
     },
     "version": 1
-}
+}```
 4. From your terminal, cd into your application folder.
 
 ```stitch-cli import  --strategy=merge``` 
