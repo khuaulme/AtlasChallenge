@@ -12,6 +12,7 @@ These calls will result in a load to monitor and profile in Atlas, as well as su
 ![Screenshot](https://user-images.githubusercontent.com/15270412/69666842-88667480-1052-11ea-8c8d-023961c70a52.png)
 
 ## Prerequisites
+mongorestore the data in the dump file.
 MongoDB Atlas programmatic API Key: http://docs.atlas.mongodb.com/configure-api-access/#programmatic-api-keys
 A properly installed copy of stitch-cli that has been added to your system PATH.
 
@@ -42,16 +43,19 @@ A properly installed copy of stitch-cli that has been added to your system PATH.
 
 ```stitch-cli import  --strategy=replace```
 
-Enable Hosting
-Replace app Stitch app name in line 85 of index.html
-Save and import
+From Atlas Stitch UI, enable Hosting.
+Download the index.html and replace app Stitch app name in line 85 of index.html
+Save and import into Stitch hosting. This will overwrite the index.html file.
+
 Disable Drafts from Deploy Configuration
-Change Values: Competitor __
+In Values, change Compeitor tooCompetitor <Cluster Number>
 
 
-Later 
-Configure trigger0 to input - to test on insert Atlas.superheroes insertion
-Open index.html to test
+Later to test if working... 
+Configure trigger0 to fire NotifyChallenge function upon insertion into AtlasChallenge.superheroes collection.   
+To test on Atlas.superheroes insertion, open
+``` <<StitchAppID>>.mongodbstitch.com```
+to write into database.
 
 _________________________
 
