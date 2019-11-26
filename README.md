@@ -55,7 +55,7 @@ After the secret is created, since there is already a Stitch app from the previo
 
 The last thing you need to do is confirm the changes from the terminal.
 
-![Screenshot](https://user-images.githubusercontent.com/15270412/69675145-9bce0b80-1063-11ea-984b-d5445498dbe7.png) . 
+![Screenshot](https://user-images.githubusercontent.com/15270412/69675917-527ebb80-1065-11ea-8665-6cab22f02371.png) . 
 
 
 From Atlas Stitch UI, enable Hosting.
