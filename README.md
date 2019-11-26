@@ -9,3 +9,5 @@ The Challenge Stitch Application will automatically make calls on a per minute S
 - sample_airbnb.listingsAndReviews
 
 These calls will result in a load to monitor and profile in Atlas, as well as suggested indexes in Atlas' Performance Advisor.
+![Screenshot](![Screenshot](http://url/to/img.png))
+https://github.com/khuaulme/AtlasChallenge/issues/1#issue-528934127
