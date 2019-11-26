@@ -1,0 +1,10 @@
+{
+    "id": "5ddd7bf80a1a4843059b3d47",
+    "name": "runSlowQueriesEachMinute",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *"
+    },
+    "function_name": "runSlowQueries",
+    "disabled": false
+}

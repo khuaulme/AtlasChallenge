@@ -1,0 +1,10 @@
+{
+    "id": "5ddd7bf80a1a4843059b3d46",
+    "name": "profilerTrigger",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *"
+    },
+    "function_name": "query4profiler",
+    "disabled": false
+}

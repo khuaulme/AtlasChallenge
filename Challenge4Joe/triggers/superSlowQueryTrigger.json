@@ -1,0 +1,10 @@
+{
+    "id": "5ddd7bf80a1a4843059b3d49",
+    "name": "superSlowQueryTrigger",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *"
+    },
+    "function_name": "superSlowQueries",
+    "disabled": false
+}
