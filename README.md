@@ -41,11 +41,13 @@ A properly installed copy of stitch-cli that has been added to your system PATH.
 
 accept the defaults and name the application "Challenge" 
 
-You will receive and error that states:
-```failed to import app: error: error validating Service: TwilioReInventChallenge: could not find secret "challenge_sh"```
-DON'T PANIC! All is not lost. Simply paste the following in the terminal to add the secret:
+You will receive and error that states:  
 
-```stitch-cli secrets add --name=challenge_sh --value=c2fc601a087cedd075751792c6df45c0``` 
+```failed to import app: error: error validating Service: TwilioReInventChallenge: could not find secret "challenge_sh"``` 
+  
+DON'T PANIC! All is not lost. Simply paste the following in the terminal to add the secret:  
+
+```stitch-cli secrets add --name=challenge_sh --value=c2fc601a087cedd075751792c6df45c0```   
 
 After the secret is created, since there is already a Stitch app from the previous import, re-import as a replace from the command line with this command:
 
