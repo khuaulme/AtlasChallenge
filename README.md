@@ -36,11 +36,11 @@ A properly installed copy of stitch-cli that has been added to your system PATH.
 
 4. From your terminal, cd into your application folder.
 
-stitch-cli import  --strategy=merge
+```stitch-cli import  --strategy=merge```
 
-stitch-cli secrets add --name=challenge_sh --value=c2fc601a087cedd075751792c6df45c0
+```stitch-cli secrets add --name=challenge_sh --value=c2fc601a087cedd075751792c6df45c0```
 
-stitch-cli import  --strategy=replace
+```stitch-cli import  --strategy=replace```
 
 Enable Hosting
 Replace app Stitch app name in line 85 of index.html
