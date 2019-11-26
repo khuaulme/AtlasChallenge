@@ -53,7 +53,9 @@ After the secret is created, since there is already a Stitch app from the previo
 
 ```stitch-cli import  --strategy=replace```
 
-The last thing you need to do is confirm the changes from the terminal.   
+The last thing you need to do is confirm the changes from the terminal.
+
+![Screenshot](https://user-images.githubusercontent.com/15270412/69675145-9bce0b80-1063-11ea-984b-d5445498dbe7.png) . 
 
 
 From Atlas Stitch UI, enable Hosting.
