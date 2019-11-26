@@ -1,7 +1,7 @@
 # AtlasChallenge
 Atlas Challenge for AWS Re:Invent 2019
 
-The Challenge Stitch Application will automatically make calls on a per minute Stitch scheduled trigger to several collections in the dump restore data set:
+The Challenge Stitch Application will automatically make calls on a per minute Stitch scheduled trigger to several collections in the dump restore data set: https://drive.google.com/file/d/1BqFIk2skep94IMvhRQHgkJ6rK3mh_CvW/view?usp=sharing
 
 - sports.players
 - social.linkedInUsers
@@ -12,7 +12,7 @@ These calls will result in a load to monitor and profile in Atlas, as well as su
 ![Screenshot](https://user-images.githubusercontent.com/15270412/69666842-88667480-1052-11ea-8c8d-023961c70a52.png)
 
 ## Prerequisites
-mongorestore the data in the dump file.
+mongorestore the data in the dump file to your Atlas Cluster: https://drive.google.com/file/d/1BqFIk2skep94IMvhRQHgkJ6rK3mh_CvW/view?usp=sharing
 MongoDB Atlas programmatic API Key: http://docs.atlas.mongodb.com/configure-api-access/#programmatic-api-keys
 A properly installed copy of stitch-cli that has been added to your system PATH.
 
