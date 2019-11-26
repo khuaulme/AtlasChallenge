@@ -53,6 +53,9 @@ After the secret is created, since there is already a Stitch app from the previo
 
 ```stitch-cli import  --strategy=replace```
 
+The last thing you need to do is confirm the changes from the terminal.   
+
+
 From Atlas Stitch UI, enable Hosting.
 Download the index.html and replace app Stitch app name in line 85 of index.html
 Save and import into Stitch hosting. This will overwrite the index.html file.
