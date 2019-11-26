@@ -82,7 +82,7 @@
         let hero = document.getElementById("myInput").value;
         let txt = "";
         console.log(hero);
-        let webhook_url = "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/challenge-udnsa/service/ConnectSuperheroAPI/incoming_webhook/ConnectSuperheroAPI";
+        let webhook_url = "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/<<YOUR_STITCH_APP_ID>>/service/ConnectSuperheroAPI/incoming_webhook/ConnectSuperheroAPI";
 
         fetch(webhook_url, {
             method: 'POST',
