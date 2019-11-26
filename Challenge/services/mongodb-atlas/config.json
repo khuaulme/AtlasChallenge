@@ -1,9 +1,9 @@
 {
-    "id": "5ddaf1828f4156777eaa2323",
+  
     "name": "mongodb-atlas",
     "type": "mongodb-atlas",
     "config": {
-        "clusterName": "AtlasChallenge7",
+        "clusterName": "AtlasChallenge8",
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },
