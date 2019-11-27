@@ -85,5 +85,4 @@ to write into database.
 
 _________________________
 
-### To reset: delete trigger0
-
+### To reset: See ResetReadMe.md
