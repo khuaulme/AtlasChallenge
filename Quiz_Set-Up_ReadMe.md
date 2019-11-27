@@ -7,7 +7,10 @@ Once the Atlas clusters are initialized with the initial data and the Stitch app
 - Chrome
 - Mongo Shell in the terminal
 - text editor (or potentially pdf) with the following file on the desktop.
-```SECTION 2:  CONNECTING TO YOUR DATA
+
+---------------
+
+SECTION 2:  CONNECTING TO YOUR DATA
 
 show dbs
 
@@ -27,14 +30,14 @@ ____________________________________________
 
 SECTION 5: CHARTS 
 
- { couponUsed : true, storeLocation : "Seattle" }```
+ { couponUsed : true, storeLocation : "Seattle" }
+ 
+--------------------- 
 
 2. ipad with a link to the quiz bookmarked in the Chrome browser: http://bit.ly/AtlasChallengeQuiz 
 
 
 ## Computer Set-Up
-
-
 
 Chrome Window Set-Up:
 
