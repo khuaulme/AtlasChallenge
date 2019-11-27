@@ -62,7 +62,7 @@ https://cloud.mongodb.com/v2/5dd467c7a6f2394f175e0532#alerts
 ![ScreenShot](https://user-images.githubusercontent.com/15270412/69691545-03e91580-1095-11ea-8ba6-e14fd8313e1a.png)
 
 Tab 4: Triggers
-(From Stitch Challenge App)
+(From Stitch Challenge App - ensure there is no "trigger0")
 https://stitch.mongodb.com/groups/5dd467c7a6f2394f175e0532/apps/5ddac7788f4156777ea3a3c9/triggers
 
 ![ScreenShot](https://user-images.githubusercontent.com/15270412/69691546-03e91580-1095-11ea-8fbc-fb316060201a.png)
