@@ -85,4 +85,5 @@ to write into database.
 
 _________________________
 
+### To Set-Up for Initial Quiz on Atlas and iPad, see Quiz_Set-Up_ReadMe.md
 ### To reset: See ResetReadMe.md
