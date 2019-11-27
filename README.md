@@ -69,7 +69,7 @@ Save and import into Stitch hosting. This will overwrite the index.html file.
 ![Screenshot](https://user-images.githubusercontent.com/15270412/69676438-5a8b2b00-1066-11ea-85da-775fa5e4604a.png)
 
 
-In Values, change Competitor to Competitor <Cluster Number>
+In Values, change Competitor value to "Competitor << ClusterNumber >>" - ex. "Competitor 9".
 
 
 Later to test if working... 
