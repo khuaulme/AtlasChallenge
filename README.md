@@ -11,12 +11,15 @@ The Challenge Stitch Application will automatically make calls on a per minute S
 These calls will result in a load to monitor and profile in Atlas, as well as suggested indexes in Atlas' Performance Advisor.
 ![Screenshot](https://user-images.githubusercontent.com/15270412/69666842-88667480-1052-11ea-8c8d-023961c70a52.png)
 
-## Prerequisites
+Also, this application integrates with Twilio simple web application (index.html) to write to the Atlas application.
+
+
+### Prerequisites
 mongorestore the data in the dump file to your Atlas Cluster: https://drive.google.com/file/d/1BqFIk2skep94IMvhRQHgkJ6rK3mh_CvW/view?usp=sharing
 MongoDB Atlas programmatic API Key: http://docs.atlas.mongodb.com/configure-api-access/#programmatic-api-keys
 A properly installed copy of stitch-cli that has been added to your system PATH.
 
-## Install Instructions
+### Install Instructions
 1. Download Challenge Application folder.
 2. Empty stitch.json to be {}
 3. Alter services -> mongodb-atlas -> config.json to use your "clusterName".
