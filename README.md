@@ -17,11 +17,15 @@ Also, this application integrates with Twilio simple web application (index.html
 
 
 ### Prerequisites
-mongorestore the data in the dump file to your Atlas Cluster: https://drive.google.com/file/d/1BqFIk2skep94IMvhRQHgkJ6rK3mh_CvW/view?usp=sharing
+mongorestore the data in the dump file to your M10 Atlas Cluster: https://drive.google.com/file/d/1BqFIk2skep94IMvhRQHgkJ6rK3mh_CvW/view?usp=sharing
 MongoDB Atlas programmatic API Key: http://docs.atlas.mongodb.com/configure-api-access/#programmatic-api-keys
 A properly installed copy of stitch-cli that has been added to your system PATH.
 
-### Install Instructions
+### Configure Cluster Network and Database Access 
+- Make sure to IP whitelist your M10 cluster.  
+- Add a read-only database user: username: atlas , password: challenge
+
+### Stitch Application Install Instructions
 1. Download Challenge Application folder.
 2. Empty stitch.json to be {}
 3. Alter services -> mongodb-atlas -> config.json to use your "clusterName".
