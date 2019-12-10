@@ -56,7 +56,7 @@ You will receive and error that states:
   
 DON'T PANIC! All is not lost. Simply paste the following in the terminal to add the secret:  
 
-```stitch-cli secrets add --name=challenge_sh --value=c2fc601a087cedd075751792c6df45c0```   
+```stitch-cli secrets add --name=challenge_sh --value=c2fc601a087cedd075751792c6df####```   
 
 After the secret is created, since there is already a Stitch app from the previous import, re-import as a replace from the command line with this command:
 
