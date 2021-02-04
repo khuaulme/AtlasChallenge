@@ -17,9 +17,9 @@ Also, this application integrates with Twilio simple web application (index.html
 
 
 ### Prerequisites
-mongorestore the data in the dump file to your M10 Atlas Cluster: https://drive.google.com/file/d/1BqFIk2skep94IMvhRQHgkJ6rK3mh_CvW/view?usp=sharing
-MongoDB Atlas programmatic API Key: http://docs.atlas.mongodb.com/configure-api-access/#programmatic-api-keys
-A properly installed copy of stitch-cli that has been added to your system PATH.
+1. mongorestore the data in the dump file to your M10 Atlas Cluster: https://drive.google.com/file/d/1BqFIk2skep94IMvhRQHgkJ6rK3mh_CvW/view?usp=sharing
+2. MongoDB Atlas programmatic API Key: http://docs.atlas.mongodb.com/configure-api-access/#programmatic-api-keys
+3. A properly installed copy of stitch-cli that has been added to your system PATH.
 
 ### Configure Cluster Network and Database Access 
 - Make sure to IP whitelist your M10 cluster.  
